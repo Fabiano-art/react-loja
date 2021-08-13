@@ -12,18 +12,23 @@ export default function Header(props){
                     <i class="fa fa-search"></i>
                 </span>
             </div>
-            <button  className="box btn">
-                <div>
-                    <i class="bi bi-box-seam"></i>
-                    <p>My Orders</p>
-                </div>
-            </button>
 
-            <div className="btn-group">
-                <button type="button" class="btn btn-login">Log in</button>
-                <button type="button" class="btn btn-login">Log out</button>
+            <div className="profile-group">
+                <i className="fa fa-user head-icon"></i>
+                <p>
+                    <a href="/login" className="link">Login or sign up </a>
+                    <br/>
+                    to see your <a href="/orders" className="link">orders</a>
+                </p>
             </div>
             
+            <div>
+                <a href="/cart" className="link">
+                    <i class="fa fa-cart-plus head-icon"></i>
+                </a>
+                
+            </div>
+
         </header>
     )
 }

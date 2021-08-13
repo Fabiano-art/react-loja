@@ -21,19 +21,6 @@ p {
   border-radius: 5px;
 }
 
-.box {
-  width: 150px;
-  background-color: #FFF;
-  border: 5px;
-}
-
-.box div{
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-
 .btn-login {
   background-color: #FFF;
   /* width: 50px; */
@@ -49,4 +36,32 @@ button:hover {
   -o-transition: 0.5s;
   -moz-transition: 0.5s;
   -webkit-transition: 0.5s;
+}
+
+.head-icon {
+  display: block;
+  font-size: 48px;
+  color: white;
+}
+
+.profile-group {
+  display: flex;
+}
+
+.profile-group i {
+  margin-right: 5px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.profile-group p {
+  color: white;
+}
+
+.link:hover {
+  border-bottom: white solid 1px;
 }
