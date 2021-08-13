@@ -1,3 +1,46 @@
-.nav {
-    background-color: chartreuse;
+:root {
+    --blue: rgb(39, 93, 201);
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    background-color: var(--blue);
+}
+
+.nav-item {
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item i {
+    font-size: 30px;
+}
+.nav-item svg[css="custom"] {
+    height: 30px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: white;
+
+    border-bottom: solid 1px white;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: var(--blue);
+    background-color: white;
 }
