@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 .carousel {
-    background-color: rgb(238, 0, 131);
+    overflow: hidden;
+}
+
+.carousel img {
+    width: 100%;
+    background-position: center;
+}
+
+.price-container {
+    position: absolute;
+    z-index: 2;
+
+    height: 130px;
+    width: 250px;
+    border-radius: 50%;
+
+    background-color: orange;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price {
+    color: rgb(25, 25, 189);
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
 }
